@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-28T08:44:40 IST" name="Sanity Test" finished-at="2022-12-28T08:44:40 IST" duration-ms="968">
+    <groups>
+    </groups>
+    <test started-at="2022-12-28T08:44:40 IST" name="Test" finished-at="2022-12-28T08:44:40 IST" duration-ms="968">
+      <class name="sanityTest.HomePageTest">
+        <test-method signature="verifyItems()[pri:0, instance:sanityTest.HomePageTest@5f354bcf]" started-at="2022-12-28T08:44:40 IST" name="verifyItems" finished-at="2022-12-28T08:44:40 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItems -->
+        <test-method signature="verifySearch()[pri:0, instance:sanityTest.HomePageTest@5f354bcf]" started-at="2022-12-28T08:44:40 IST" name="verifySearch" finished-at="2022-12-28T08:44:40 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method signature="verifySignInButton()[pri:0, instance:sanityTest.HomePageTest@5f354bcf]" started-at="2022-12-28T08:44:40 IST" name="verifySignInButton" finished-at="2022-12-28T08:44:40 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInButton -->
+      </class> <!-- sanityTest.HomePageTest -->
+      <class name="sanityTest.Login">
+        <test-method signature="verifyLoginByEmail()[pri:0, instance:sanityTest.Login@14fc1f0]" started-at="2022-12-28T08:44:40 IST" name="verifyLoginByEmail" finished-at="2022-12-28T08:44:40 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginByEmail -->
+        <test-method signature="verifyLoginByMobileNo()[pri:0, instance:sanityTest.Login@14fc1f0]" started-at="2022-12-28T08:44:40 IST" name="verifyLoginByMobileNo" finished-at="2022-12-28T08:44:40 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginByMobileNo -->
+      </class> <!-- sanityTest.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Sanity Test -->
+  <suite started-at="2022-12-28T08:44:41 IST" name="Functional Test" finished-at="2022-12-28T08:44:42 IST" duration-ms="749">
+    <groups>
+    </groups>
+    <test started-at="2022-12-28T08:44:41 IST" name="Test" finished-at="2022-12-28T08:44:42 IST" duration-ms="749">
+      <class name="functionalTest.Payment">
+        <test-method signature="verifyCreditCard()[pri:0, instance:functionalTest.Payment@6bffbc6d]" started-at="2022-12-28T08:44:41 IST" name="verifyCreditCard" finished-at="2022-12-28T08:44:41 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreditCard -->
+        <test-method signature="verifyDebitCard()[pri:0, instance:functionalTest.Payment@6bffbc6d]" started-at="2022-12-28T08:44:41 IST" name="verifyDebitCard" finished-at="2022-12-28T08:44:41 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDebitCard -->
+        <test-method signature="verifyNetBanking()[pri:0, instance:functionalTest.Payment@6bffbc6d]" started-at="2022-12-28T08:44:41 IST" name="verifyNetBanking" finished-at="2022-12-28T08:44:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNetBanking -->
+        <test-method signature="verifyUPI()[pri:0, instance:functionalTest.Payment@6bffbc6d]" started-at="2022-12-28T08:44:41 IST" name="verifyUPI" finished-at="2022-12-28T08:44:41 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUPI -->
+      </class> <!-- functionalTest.Payment -->
+      <class name="functionalTest.Product">
+        <test-method signature="verifyElectronic()[pri:0, instance:functionalTest.Product@53f6fd09]" started-at="2022-12-28T08:44:41 IST" name="verifyElectronic" finished-at="2022-12-28T08:44:41 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElectronic -->
+        <test-method signature="verifyGrocery()[pri:0, instance:functionalTest.Product@53f6fd09]" started-at="2022-12-28T08:44:41 IST" name="verifyGrocery" finished-at="2022-12-28T08:44:41 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrocery -->
+        <test-method signature="verifyHouseHold()[pri:0, instance:functionalTest.Product@53f6fd09]" started-at="2022-12-28T08:44:41 IST" name="verifyHouseHold" finished-at="2022-12-28T08:44:41 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHouseHold -->
+        <test-method signature="verifyKitchenAppliences()[pri:0, instance:functionalTest.Product@53f6fd09]" started-at="2022-12-28T08:44:41 IST" name="verifyKitchenAppliences" finished-at="2022-12-28T08:44:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKitchenAppliences -->
+      </class> <!-- functionalTest.Product -->
+    </test> <!-- Test -->
+  </suite> <!-- Functional Test -->
+  <suite started-at="2022-12-28T08:44:42 IST" name="Master Suite" finished-at="2022-12-28T08:44:42 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Master Suite -->
+</testng-results>
